@@ -185,7 +185,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,.3);
+    background: rgba(0, 0, 0, 0);
 }
 
 .carousel-fade .carousel-inner .active {
@@ -548,19 +548,23 @@ section {
   font-size: 14px;
 }
 
-.team-member:hover .social-icons ul li a.facebook {
+.team-member:hover .social-icons ul li a.weibo {
   background-color: #3b5999;
 }
-.team-member:hover .social-icons ul li a.twitter {
+
+.team-member:hover .social-icons ul li a.t-weibo {
   background-color: #2ac6f7;
 }
-.team-member:hover .social-icons ul li a.dribbble {
+
+.team-member:hover .social-icons ul li a.qq {
   background-color: #ff5b92;
 }
-.team-member:hover .social-icons ul li a.linkedin {
+
+.team-member:hover .social-icons ul li a.weixin {
   background-color: #036dc0;
 }
-.team-member:hover .social-icons ul li a.rss {
+
+.team-member:hover .social-icons ul li a.plane {
   background-color: #ff6b00;
 }
 
