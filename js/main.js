@@ -3,8 +3,8 @@ jQuery(function ($) {
     $('.loading9').shCircleLoader(
         {
             color: 'red',
-            dots: 24,
-            dotsRadius: 13,
+            dots: 50,
+            dotsRadius: 30,
             keyframes: '0%   {background: red;    {prefix}transform: scale(1)}\
             20%  {background: orange; {prefix}transform: scale(.4)}\
             40%  {background: red;    {prefix}transform: scale(0)}\
@@ -18,7 +18,7 @@ jQuery(function ($) {
     setInterval(function () {
         $('.loading9').shCircleLoader('progress', i + '%');
         if (++i > 100) i = 0;
-    }, 100);
+    }, 580);
     //Preloader
     var preloader = $('.preloader');
     $(window).load(function () {
